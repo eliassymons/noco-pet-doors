@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/noco-pet-doors/static/css/main.8814749d.css",
-    "main.js": "/noco-pet-doors/static/js/main.8181908b.js",
+    "main.js": "/noco-pet-doors/static/js/main.3cc217bc.js",
     "static/media/echo.jpeg": "/noco-pet-doors/static/media/echo.daf64420dce2184a69ad.jpeg",
     "static/media/echo-info.jpeg": "/noco-pet-doors/static/media/echo-info.e149f47079474c355878.jpeg",
     "static/media/echo-mobile.jpeg": "/noco-pet-doors/static/media/echo-mobile.060ac4c777795fd8878b.jpeg",
@@ -13,10 +13,10 @@
     "static/media/Quality+stamp+2+-+NoCo+Pet+Doors-f3bcce23.svg": "/noco-pet-doors/static/media/Quality+stamp+2+-+NoCo+Pet+Doors-f3bcce23.1faef8e8f193aca62df96cc3dcd5dcf6.svg",
     "index.html": "/noco-pet-doors/index.html",
     "main.8814749d.css.map": "/noco-pet-doors/static/css/main.8814749d.css.map",
-    "main.8181908b.js.map": "/noco-pet-doors/static/js/main.8181908b.js.map"
+    "main.3cc217bc.js.map": "/noco-pet-doors/static/js/main.3cc217bc.js.map"
   },
   "entrypoints": [
     "static/css/main.8814749d.css",
-    "static/js/main.8181908b.js"
+    "static/js/main.3cc217bc.js"
   ]
 }
