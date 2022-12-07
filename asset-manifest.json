@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/noco-pet-doors/static/css/main.81d46d9c.css",
-    "main.js": "/noco-pet-doors/static/js/main.ca61a861.js",
+    "main.js": "/noco-pet-doors/static/js/main.74db335a.js",
     "static/media/echo.jpeg": "/noco-pet-doors/static/media/echo.daf64420dce2184a69ad.jpeg",
+    "static/media/guarantee.png": "/noco-pet-doors/static/media/guarantee.7029bb5520481a8ec2c0.png",
     "static/media/echo-info.jpeg": "/noco-pet-doors/static/media/echo-info.e149f47079474c355878.jpeg",
     "static/media/echo-mobile.jpeg": "/noco-pet-doors/static/media/echo-mobile.060ac4c777795fd8878b.jpeg",
     "static/media/husky.JPG": "/noco-pet-doors/static/media/husky.55a5ecb09c1b776d3bb8.JPG",
     "static/media/noco-family-pic.png": "/noco-pet-doors/static/media/noco-family-pic.cc3a97b7acbaa288925d.png",
     "static/media/small-dog.JPG": "/noco-pet-doors/static/media/small-dog.cc6898a51f72a1e89092.JPG",
     "static/media/noco-logo.png": "/noco-pet-doors/static/media/noco-logo.47e3fa6e4215bfd4555e.png",
-    "static/media/Quality+stamp+2+-+NoCo+Pet+Doors-f3bcce23.svg": "/noco-pet-doors/static/media/Quality+stamp+2+-+NoCo+Pet+Doors-f3bcce23.1faef8e8f193aca62df96cc3dcd5dcf6.svg",
     "index.html": "/noco-pet-doors/index.html",
     "main.81d46d9c.css.map": "/noco-pet-doors/static/css/main.81d46d9c.css.map",
-    "main.ca61a861.js.map": "/noco-pet-doors/static/js/main.ca61a861.js.map"
+    "main.74db335a.js.map": "/noco-pet-doors/static/js/main.74db335a.js.map"
   },
   "entrypoints": [
     "static/css/main.81d46d9c.css",
-    "static/js/main.ca61a861.js"
+    "static/js/main.74db335a.js"
   ]
 }
