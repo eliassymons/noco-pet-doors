@@ -8,10 +8,15 @@ function Footer() {
       <a
         href="https://www.facebook.com/profile.php?id=100083529694359"
         target="_blank"
+        rel="noreferrer"
       >
         <img alt="facebook" src={facebook} className="social-icon" />
       </a>
-      <a href="https://www.instagram.com/nocopetdoors/" target="_blank">
+      <a
+        href="https://www.instagram.com/nocopetdoors/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <img alt="instagram" src={instagram} className="social-icon" />
       </a>
     </div>

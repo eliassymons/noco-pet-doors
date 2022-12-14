@@ -11212,6 +11212,9 @@ p {
   width: 90vw;
   max-width: 30rem;
 }
+.about-us .testimonial-copy p {
+  font-style: italic;
+}
 .about-us .about-story {
   background-color: #0071bd;
   padding: 2rem;

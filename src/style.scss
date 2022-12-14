@@ -284,6 +284,9 @@ p {
       max-width: 30rem;
     }
   }
+  .testimonial-copy p {
+    font-style: italic;
+  }
   .about-story {
     background-color: $blue;
     padding: 2rem;

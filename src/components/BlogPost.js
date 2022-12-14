@@ -1,5 +1,3 @@
-import { propTypes } from "react-bootstrap/esm/Image";
-
 function BlogPost(props) {
   return (
     <div className="blog-post">

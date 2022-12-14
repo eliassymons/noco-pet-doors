@@ -1,6 +1,6 @@
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import family from "../images/noco-family-pic.png";
+import family from "../images/noco-family.jpeg";
 import dog from "../images/echo-info.jpeg";
 import husky from "../images/husky.JPG";
 
