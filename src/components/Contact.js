@@ -90,8 +90,8 @@ function Contact() {
           <p>Friday 8-6</p>
           <p>Saturday 8-6</p>
           <div className="about-us-contact">
-            <a href="mailto: Info@nocopetdoors.com">Info@nocopetdoors.com</a>/
-            <a href="tel:970-215-7385">(970) 215-7385</a>
+            <a href="mailto: Info@nocopetdoors.com">Info@nocopetdoors.com </a> /
+            <a href="tel:970-215-7385"> (970) 215-7385</a>
           </div>
         </div>
       </div>
