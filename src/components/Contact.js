@@ -87,11 +87,14 @@ function Contact() {
         ) : (
           <div className="message-recieved">
             <img alt="email-recieved" src={checked} />
-            <h3>Your Message has been recieved.</h3>
+            <h3>
+              Thank you for your submission. You can expect a response within
+              the next business day.
+            </h3>
           </div>
         )}
         <div className="hours">
-          <h2>NoCo Pet Doors:</h2>
+          <h2>Hours:</h2>
           <p>Monday 8-6</p>
           <p>Tuesday 8-6</p>
           <p>Wednesday 8-6</p>
