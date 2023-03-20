@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.f41a5a8e.css",
+    "main.css": "/static/css/main.2c68c871.css",
     "main.js": "/static/js/main.a3da7964.js",
     "static/media/echo.jpeg": "/static/media/echo.daf64420dce2184a69ad.jpeg",
     "static/media/guarantee.png": "/static/media/guarantee.7029bb5520481a8ec2c0.png",
@@ -12,11 +12,11 @@
     "static/media/noco-logo.png": "/static/media/noco-logo.47e3fa6e4215bfd4555e.png",
     "index.html": "/index.html",
     "static/media/envelope-check.svg": "/static/media/envelope-check.a69fb1b0024a9c46759aa138a8b88910.svg",
-    "main.f41a5a8e.css.map": "/static/css/main.f41a5a8e.css.map",
+    "main.2c68c871.css.map": "/static/css/main.2c68c871.css.map",
     "main.a3da7964.js.map": "/static/js/main.a3da7964.js.map"
   },
   "entrypoints": [
-    "static/css/main.f41a5a8e.css",
+    "static/css/main.2c68c871.css",
     "static/js/main.a3da7964.js"
   ]
 }
