@@ -11188,7 +11188,7 @@ p {
   color: white;
 }
 .contact .message-recieved h3, .contact .message-recieved .h3 {
-  width: 80%;
+  max-width: 35rem;
 }
 .contact .message-recieved img {
   width: 4rem;
