@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/noco-pet-doors/static/css/main.81d46d9c.css",
-    "main.js": "/noco-pet-doors/static/js/main.74db335a.js",
-    "static/media/echo.jpeg": "/noco-pet-doors/static/media/echo.daf64420dce2184a69ad.jpeg",
-    "static/media/guarantee.png": "/noco-pet-doors/static/media/guarantee.7029bb5520481a8ec2c0.png",
-    "static/media/echo-info.jpeg": "/noco-pet-doors/static/media/echo-info.e149f47079474c355878.jpeg",
-    "static/media/echo-mobile.jpeg": "/noco-pet-doors/static/media/echo-mobile.060ac4c777795fd8878b.jpeg",
-    "static/media/husky.JPG": "/noco-pet-doors/static/media/husky.55a5ecb09c1b776d3bb8.JPG",
-    "static/media/noco-family-pic.png": "/noco-pet-doors/static/media/noco-family-pic.cc3a97b7acbaa288925d.png",
-    "static/media/small-dog.JPG": "/noco-pet-doors/static/media/small-dog.cc6898a51f72a1e89092.JPG",
-    "static/media/noco-logo.png": "/noco-pet-doors/static/media/noco-logo.47e3fa6e4215bfd4555e.png",
-    "index.html": "/noco-pet-doors/index.html",
-    "main.81d46d9c.css.map": "/noco-pet-doors/static/css/main.81d46d9c.css.map",
-    "main.74db335a.js.map": "/noco-pet-doors/static/js/main.74db335a.js.map"
+    "main.css": "/static/css/main.f41a5a8e.css",
+    "main.js": "/static/js/main.04eb1f64.js",
+    "static/media/echo.jpeg": "/static/media/echo.daf64420dce2184a69ad.jpeg",
+    "static/media/guarantee.png": "/static/media/guarantee.7029bb5520481a8ec2c0.png",
+    "static/media/echo-info.jpeg": "/static/media/echo-info.e149f47079474c355878.jpeg",
+    "static/media/echo-mobile.jpeg": "/static/media/echo-mobile.060ac4c777795fd8878b.jpeg",
+    "static/media/husky.JPG": "/static/media/husky.55a5ecb09c1b776d3bb8.JPG",
+    "static/media/noco-family.jpeg": "/static/media/noco-family.7eeea69012579c41e596.jpeg",
+    "static/media/small-dog.JPG": "/static/media/small-dog.cc6898a51f72a1e89092.JPG",
+    "static/media/noco-logo.png": "/static/media/noco-logo.47e3fa6e4215bfd4555e.png",
+    "index.html": "/index.html",
+    "static/media/envelope-check.svg": "/static/media/envelope-check.a69fb1b0024a9c46759aa138a8b88910.svg",
+    "main.f41a5a8e.css.map": "/static/css/main.f41a5a8e.css.map",
+    "main.04eb1f64.js.map": "/static/js/main.04eb1f64.js.map"
   },
   "entrypoints": [
-    "static/css/main.81d46d9c.css",
-    "static/js/main.74db335a.js"
+    "static/css/main.f41a5a8e.css",
+    "static/js/main.04eb1f64.js"
   ]
 }
