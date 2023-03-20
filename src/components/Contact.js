@@ -1,8 +1,10 @@
 import axios from "axios";
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
+import checked from "../images/envelope-check.svg";
 
 function Contact() {
+  const [messageSent, setMessageSent] = useState(false);
   const [inputs, setInputs] = useState({
     email: "",
     number: "",
@@ -22,7 +24,7 @@ function Contact() {
 
   const handleOnSubmit = (event) => {
     event.preventDefault();
-
+    setMessageSent(true);
     axios({
       method: "POST",
       url: "https://formbold.com/s/3Gbd9",
@@ -39,48 +41,55 @@ function Contact() {
     <div className="contact">
       <h1>Get in touch</h1>
       <div className="contact-container">
-        <form onSubmit={handleOnSubmit}>
-          <input
-            onChange={handleOnChange}
-            value={inputs.name}
-            id="name"
-            type="text"
-            name="name"
-            placeholder="Name"
-          />
-          <input
-            onChange={handleOnChange}
-            value={inputs.email}
-            id="email"
-            type="email"
-            name="email"
-            placeholder="Email"
-          />
-          <input
-            onChange={handleOnChange}
-            value={inputs.number}
-            id="number"
-            type="tel"
-            name="number"
-            placeholder="Phone Number"
-          />
-          <input
-            onChange={handleOnChange}
-            value={inputs.zip}
-            id="zip"
-            type="text"
-            name="zip"
-            placeholder="Zip Code"
-          />
-          <textarea
-            onChange={handleOnChange}
-            value={inputs.message}
-            id="message"
-            name="message"
-            placeholder="Type your message"
-          />
-          <Button type="submit"> Send Message </Button>
-        </form>
+        {!messageSent ? (
+          <form onSubmit={handleOnSubmit}>
+            <input
+              onChange={handleOnChange}
+              value={inputs.name}
+              id="name"
+              type="text"
+              name="name"
+              placeholder="Name"
+            />
+            <input
+              onChange={handleOnChange}
+              value={inputs.email}
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Email"
+            />
+            <input
+              onChange={handleOnChange}
+              value={inputs.number}
+              id="number"
+              type="tel"
+              name="number"
+              placeholder="Phone Number"
+            />
+            <input
+              onChange={handleOnChange}
+              value={inputs.zip}
+              id="zip"
+              type="text"
+              name="zip"
+              placeholder="Zip Code"
+            />
+            <textarea
+              onChange={handleOnChange}
+              value={inputs.message}
+              id="message"
+              name="message"
+              placeholder="Type your message"
+            />
+            <Button type="submit"> Send Message </Button>
+          </form>
+        ) : (
+          <div className="message-recieved">
+            <img alt="email-recieved" src={checked} />
+            <h3>Your Message has been recieved.</h3>
+          </div>
+        )}
         <div className="hours">
           <h2>NoCo Pet Doors:</h2>
           <p>Monday 8-6</p>

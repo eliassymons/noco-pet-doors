@@ -370,6 +370,19 @@ p {
       }
     }
   }
+  .message-recieved {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    color: white;
+    h3 {
+      width: 80%;
+    }
+    img {
+      width: 4rem;
+    }
+  }
   form {
     display: flex;
     flex-direction: column;
