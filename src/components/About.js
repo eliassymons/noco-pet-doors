@@ -17,11 +17,7 @@ function About() {
           create a business that reflects our values: Integrity, Passion, and
           Community. We’ve facilitated 600+ pet doors.
         </p>
-        <Button variant="secondary">
-          <AboutLink to="/about-us" className="about-link">
-            Our Story
-          </AboutLink>
-        </Button>
+
         <Button variant="primary">
           <Link
             to="contact"

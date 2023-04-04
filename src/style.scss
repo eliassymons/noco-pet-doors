@@ -162,7 +162,108 @@ p {
     max-width: 50rem;
   }
 }
+//SERVICES
+.services {
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  // background: linear-gradient(
+  //     rgba(255, 255, 255, 0.623),
+  //     rgba(255, 255, 255, 0.692)
+  //   ),
+  //   url("./images/services-bg.jpg");
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  a {
+    text-decoration: none;
+    color: #525252;
+  }
+  .services-container {
+    width: 90%;
 
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    gap: 2rem;
+  }
+  .service {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 0.3rem;
+  }
+  img {
+    width: 80vw;
+    height: 20rem;
+    max-width: 15rem;
+    object-fit: cover;
+    margin: auto;
+  }
+  h3 {
+    font-size: 1.8rem;
+    color: $blue;
+    font-weight: 700;
+    margin: 0;
+  }
+  p {
+    font-size: 0.9rem;
+    max-width: 18rem;
+  }
+}
+// Service Details - DogDoor info
+
+.dog-doors {
+  .dog-doors-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .dog-door {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      width: 100%;
+      margin: auto;
+    }
+    h2 {
+      font-size: 1.6rem;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+      font-size: 1.3rem;
+      max-width: 20rem;
+      margin: auto;
+    }
+  }
+  img {
+    max-width: 20rem;
+  }
+}
 //Pet Doors
 
 .pet-doors {
@@ -204,6 +305,7 @@ p {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+
   flex-wrap: wrap;
   gap: 3rem;
   padding-top: 4rem;
@@ -211,6 +313,7 @@ p {
   h2,
   p {
     color: $blue;
+    max-width: 30rem;
   }
   .about-info {
     width: 90vw;
@@ -220,8 +323,8 @@ p {
     gap: 2rem;
   }
   .about-img {
-    width: 30rem;
-    max-width: 90vw;
+    width: 90vw;
+    max-width: 25rem;
     border-radius: 2.5rem;
   }
   .about-link {
@@ -230,113 +333,113 @@ p {
   }
 }
 //ABOUT US
-.about-us {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
+// .about-us {
+//   width: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 2rem;
+//   justify-content: center;
+//   align-items: center;
 
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  background-color: $white;
-  .back-btn {
-    position: absolute;
-    width: 4rem;
-    aspect-ratio: 1;
-    border-radius: 100%;
-    font-size: 2rem;
-    .link {
-      margin: auto;
-    }
-    top: 2rem;
-    left: 2rem;
-  }
-  p {
-    font-size: 1.2rem;
-  }
-  .about-story,
-  .beginnings-story,
-  .testimonial {
-    display: flex;
-    align-items: center;
+//   padding-top: 4rem;
+//   padding-bottom: 4rem;
+//   background-color: $white;
+//   .back-btn {
+//     position: absolute;
+//     width: 4rem;
+//     aspect-ratio: 1;
+//     border-radius: 100%;
+//     font-size: 2rem;
+//     .link {
+//       margin: auto;
+//     }
+//     top: 2rem;
+//     left: 2rem;
+//   }
+//   p {
+//     font-size: 1.2rem;
+//   }
+//   .about-story,
+//   .beginnings-story,
+//   .testimonial {
+//     display: flex;
+//     align-items: center;
 
-    padding: 2rem;
-    gap: 2rem;
-    flex-wrap: wrap-reverse;
+//     padding: 2rem;
+//     gap: 2rem;
+//     flex-wrap: wrap-reverse;
 
-    img,
-    .testimonial-img {
-      width: 100%;
-      margin: auto;
-      max-width: 20rem;
-      height: auto;
-    }
-    .about-copy,
-    .beginnings-copy,
-    .testimonial-copy {
-      display: flex;
-      flex-direction: column;
+//     img,
+//     .testimonial-img {
+//       width: 100%;
+//       margin: auto;
+//       max-width: 20rem;
+//       height: auto;
+//     }
+//     .about-copy,
+//     .beginnings-copy,
+//     .testimonial-copy {
+//       display: flex;
+//       flex-direction: column;
 
-      gap: 1rem;
-      width: 90vw;
-      max-width: 30rem;
-    }
-  }
-  .testimonial-copy p {
-    font-style: italic;
-  }
-  .about-story {
-    background-color: $blue;
-    padding: 2rem;
-    color: white;
-    border-radius: 2rem;
-    border-right: 2px solid rgba(255, 255, 255, 0.473);
-    border-top: 2px solid rgba(255, 255, 255, 0.479);
-  }
-  .beginnings-story {
-    background-color: $yellow;
-    color: $grey;
-    padding: 2rem;
-    border-radius: 2rem;
-    border-right: 2px solid rgba(255, 255, 255, 0.473);
-    border-top: 2px solid rgba(255, 255, 255, 0.479);
-  }
-  .testimonial {
-    background-color: $blue;
-    padding: 2rem;
-    color: white;
-    border-radius: 2rem;
-    border-right: 2px solid rgba(255, 255, 255, 0.473);
-    border-top: 2px solid rgba(255, 255, 255, 0.479);
-    p {
-      line-height: 3rem;
-    }
-    span {
-      font-family: "Anton", sans-serif;
-      font-size: 2.5rem;
-      color: $yellow;
-    }
-  }
-  .about-us-link {
-    text-decoration: none;
-    color: white;
-  }
-  .hours {
-    background-color: $yellow;
-    color: $grey;
-    padding: 2rem;
-    border-radius: 1rem;
-    .about-us-contact {
-      display: inline-block;
-    }
-  }
-  h2,
-  h4 {
-    text-align: center;
-  }
-}
+//       gap: 1rem;
+//       width: 90vw;
+//       max-width: 30rem;
+//     }
+//   }
+//   .testimonial-copy p {
+//     font-style: italic;
+//   }
+//   .about-story {
+//     background-color: $blue;
+//     padding: 2rem;
+//     color: white;
+//     border-radius: 2rem;
+//     border-right: 2px solid rgba(255, 255, 255, 0.473);
+//     border-top: 2px solid rgba(255, 255, 255, 0.479);
+//   }
+//   .beginnings-story {
+//     background-color: $yellow;
+//     color: $grey;
+//     padding: 2rem;
+//     border-radius: 2rem;
+//     border-right: 2px solid rgba(255, 255, 255, 0.473);
+//     border-top: 2px solid rgba(255, 255, 255, 0.479);
+//   }
+//   .testimonial {
+//     background-color: $blue;
+//     padding: 2rem;
+//     color: white;
+//     border-radius: 2rem;
+//     border-right: 2px solid rgba(255, 255, 255, 0.473);
+//     border-top: 2px solid rgba(255, 255, 255, 0.479);
+//     p {
+//       line-height: 3rem;
+//     }
+//     span {
+//       font-family: "Anton", sans-serif;
+//       font-size: 2.5rem;
+//       color: $yellow;
+//     }
+//   }
+//   .about-us-link {
+//     text-decoration: none;
+//     color: white;
+//   }
+//   .hours {
+//     background-color: $yellow;
+//     color: $grey;
+//     padding: 2rem;
+//     border-radius: 1rem;
+//     .about-us-contact {
+//       display: inline-block;
+//     }
+//   }
+//   h2,
+//   h4 {
+//     text-align: center;
+//   }
+// }
 //CONTACT
 
 .contact {
@@ -393,6 +496,7 @@ p {
     input,
     textarea {
       border-radius: 0.2rem;
+      padding: 0.2rem 0.4rem;
     }
   }
 }
@@ -408,6 +512,9 @@ p {
   text-align: center;
   p {
     font-size: 1rem;
+  }
+  img {
+    width: 2rem;
   }
 }
 
@@ -449,6 +556,41 @@ p {
     justify-content: flex-start;
     h1 {
       margin-top: 3rem;
+    }
+  }
+}
+@media screen and (min-width: 1000px) {
+  .services .services-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .dog-doors .dog-doors-container {
+    gap: 6rem;
+  }
+  .dog-doors .dog-doors-container .dog-door {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50rem;
+    max-width: 60rem;
+
+    .content {
+      width: unset;
+
+      text-align: left;
+      align-items: flex-start;
+      h2 {
+        text-align: left;
+      }
+    }
+    p {
+      font-size: 1.4rem;
+      text-align: left;
+      margin: 0;
+    }
+    h2 {
+      text-align: left;
     }
   }
 }

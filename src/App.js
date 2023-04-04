@@ -1,12 +1,14 @@
 import About from "./components/About";
 // import Blog from "./components/Blog";
 import Contact from "./components/Contact";
-import Header from "./components/Header";
+
 import Home from "./components/Home";
 import PetDoors from "./components/PetDoors";
 import Footer from "./components/Footer";
 import "./style.css";
 import React from "react";
+import Services from "./components/Services";
+import Header from "./components/Header";
 
 function App() {
   // const [userData, setUserData] = React.useState([] || null);
@@ -18,9 +20,10 @@ function App() {
 
   // console.log(userData && userData);
   return (
-    <div className="App">
+    <div className="App" id="/home">
       <Header />
       <Home />
+      <Services />
       <PetDoors />
       <About />
       <Contact />

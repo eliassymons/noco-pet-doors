@@ -10976,6 +10976,96 @@ p {
   max-width: 50rem;
 }
 
+.services {
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.services a {
+  text-decoration: none;
+  color: #525252;
+}
+.services .services-container {
+  width: 90%;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  gap: 2rem;
+}
+.services .service {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 0.3rem;
+}
+.services img {
+  width: 80vw;
+  height: 20rem;
+  max-width: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: auto;
+}
+.services h3, .services .h3 {
+  font-size: 1.8rem;
+  color: #0071bd;
+  font-weight: 700;
+  margin: 0;
+}
+.services p {
+  font-size: 0.9rem;
+  max-width: 18rem;
+}
+
+.dog-doors .dog-doors-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.dog-doors .dog-door {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+}
+.dog-doors .dog-door .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  margin: auto;
+}
+.dog-doors .dog-door h2, .dog-doors .dog-door .h2 {
+  font-size: 1.6rem;
+  text-align: center;
+}
+.dog-doors .dog-door p {
+  text-align: center;
+  font-size: 1.3rem;
+  max-width: 20rem;
+  margin: auto;
+}
+.dog-doors img {
+  max-width: 20rem;
+}
+
 .pet-doors {
   width: 100%;
   display: flex;
@@ -11019,6 +11109,7 @@ p {
 .about h2, .about .h2,
 .about p {
   color: #0071bd;
+  max-width: 30rem;
 }
 .about .about-info {
   width: 90vw;
@@ -11028,128 +11119,13 @@ p {
   gap: 2rem;
 }
 .about .about-img {
-  width: 30rem;
-  max-width: 90vw;
+  width: 90vw;
+  max-width: 25rem;
   border-radius: 2.5rem;
 }
 .about .about-link {
   text-decoration: none;
   color: white;
-}
-
-.about-us {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  justify-content: center;
-  align-items: center;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  background-color: #fff;
-}
-.about-us .back-btn {
-  position: absolute;
-  width: 4rem;
-  aspect-ratio: 1;
-  border-radius: 100%;
-  font-size: 2rem;
-  top: 2rem;
-  left: 2rem;
-}
-.about-us .back-btn .link {
-  margin: auto;
-}
-.about-us p {
-  font-size: 1.2rem;
-}
-.about-us .about-story,
-.about-us .beginnings-story,
-.about-us .testimonial {
-  display: flex;
-  align-items: center;
-  padding: 2rem;
-  gap: 2rem;
-  flex-wrap: wrap-reverse;
-}
-.about-us .about-story img,
-.about-us .about-story .testimonial-img,
-.about-us .beginnings-story img,
-.about-us .beginnings-story .testimonial-img,
-.about-us .testimonial img,
-.about-us .testimonial .testimonial-img {
-  width: 100%;
-  margin: auto;
-  max-width: 20rem;
-  height: auto;
-}
-.about-us .about-story .about-copy,
-.about-us .about-story .beginnings-copy,
-.about-us .about-story .testimonial-copy,
-.about-us .beginnings-story .about-copy,
-.about-us .beginnings-story .beginnings-copy,
-.about-us .beginnings-story .testimonial-copy,
-.about-us .testimonial .about-copy,
-.about-us .testimonial .beginnings-copy,
-.about-us .testimonial .testimonial-copy {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  width: 90vw;
-  max-width: 30rem;
-}
-.about-us .testimonial-copy p {
-  font-style: italic;
-}
-.about-us .about-story {
-  background-color: #0071bd;
-  padding: 2rem;
-  color: white;
-  border-radius: 2rem;
-  border-right: 2px solid rgba(255, 255, 255, 0.473);
-  border-top: 2px solid rgba(255, 255, 255, 0.479);
-}
-.about-us .beginnings-story {
-  background-color: #fbb43d;
-  color: #525252;
-  padding: 2rem;
-  border-radius: 2rem;
-  border-right: 2px solid rgba(255, 255, 255, 0.473);
-  border-top: 2px solid rgba(255, 255, 255, 0.479);
-}
-.about-us .testimonial {
-  background-color: #0071bd;
-  padding: 2rem;
-  color: white;
-  border-radius: 2rem;
-  border-right: 2px solid rgba(255, 255, 255, 0.473);
-  border-top: 2px solid rgba(255, 255, 255, 0.479);
-}
-.about-us .testimonial p {
-  line-height: 3rem;
-}
-.about-us .testimonial span {
-  font-family: "Anton", sans-serif;
-  font-size: 2.5rem;
-  color: #fbb43d;
-}
-.about-us .about-us-link {
-  text-decoration: none;
-  color: white;
-}
-.about-us .hours {
-  background-color: #fbb43d;
-  color: #525252;
-  padding: 2rem;
-  border-radius: 1rem;
-}
-.about-us .hours .about-us-contact {
-  display: inline-block;
-}
-.about-us h2, .about-us .h2,
-.about-us h4,
-.about-us .h4 {
-  text-align: center;
 }
 
 .contact {
@@ -11204,6 +11180,7 @@ p {
 .contact form input,
 .contact form textarea {
   border-radius: 0.2rem;
+  padding: 0.2rem 0.4rem;
 }
 
 .footer {
@@ -11218,6 +11195,9 @@ p {
 }
 .footer p {
   font-size: 1rem;
+}
+.footer img {
+  width: 2rem;
 }
 
 .blog {
@@ -11252,5 +11232,38 @@ p {
   }
   .home h1, .home .h1 {
     margin-top: 3rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .services .services-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .dog-doors .dog-doors-container {
+    gap: 6rem;
+  }
+  .dog-doors .dog-doors-container .dog-door {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 50rem;
+    max-width: 60rem;
+  }
+  .dog-doors .dog-doors-container .dog-door .content {
+    width: unset;
+    text-align: left;
+    align-items: flex-start;
+  }
+  .dog-doors .dog-doors-container .dog-door .content h2, .dog-doors .dog-doors-container .dog-door .content .h2 {
+    text-align: left;
+  }
+  .dog-doors .dog-doors-container .dog-door p {
+    font-size: 1.4rem;
+    text-align: left;
+    margin: 0;
+  }
+  .dog-doors .dog-doors-container .dog-door h2, .dog-doors .dog-doors-container .dog-door .h2 {
+    text-align: left;
   }
 }

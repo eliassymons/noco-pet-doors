@@ -38,7 +38,7 @@ function Contact() {
       });
   };
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <h1>Get in touch</h1>
       <div className="contact-container">
         {!messageSent ? (

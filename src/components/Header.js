@@ -13,7 +13,13 @@ function Header() {
     <Navbar key="lg" expand="lg" sticky="top">
       <Container fluid>
         <Navbar.Brand href="#home">
-          <Link to="home" spy={true} smooth={true} offset={-200} duration={500}>
+          <Link
+            to="/home"
+            spy={true}
+            smooth={true}
+            offset={-200}
+            duration={500}
+          >
             <img alt="logo" src={main} className="logo" />
           </Link>
         </Navbar.Brand>
@@ -28,7 +34,7 @@ function Header() {
             <Nav className="ms-auto">
               <Link
                 className="link"
-                to="pet-doors"
+                to="services"
                 spy={true}
                 smooth={true}
                 offset={-90}

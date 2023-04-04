@@ -1,5 +1,5 @@
-import facebook from "../images/socials/facebook.png";
-import instagram from "../images/socials/instagram.png";
+import facebook from "../images/socials/facebook.svg";
+import instagram from "../images/socials/instagram.svg";
 
 function Footer() {
   return (
