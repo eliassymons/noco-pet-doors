@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c68c871.css",
-    "main.js": "/static/js/main.a3da7964.js",
+    "main.css": "/static/css/main.20a4b042.css",
+    "main.js": "/static/js/main.7fcc8084.js",
     "static/media/echo.jpeg": "/static/media/echo.daf64420dce2184a69ad.jpeg",
     "static/media/guarantee.png": "/static/media/guarantee.7029bb5520481a8ec2c0.png",
-    "static/media/echo-info.jpeg": "/static/media/echo-info.e149f47079474c355878.jpeg",
+    "static/media/sliding-glass.jpg": "/static/media/sliding-glass.df445f51ff71b3b360b0.jpg",
     "static/media/echo-mobile.jpeg": "/static/media/echo-mobile.060ac4c777795fd8878b.jpeg",
-    "static/media/husky.JPG": "/static/media/husky.55a5ecb09c1b776d3bb8.JPG",
-    "static/media/noco-family.jpeg": "/static/media/noco-family.7eeea69012579c41e596.jpeg",
+    "static/media/french-door.jpg": "/static/media/french-door.1cf39e1e5448c58bf4c7.jpg",
+    "static/media/in-wall.jpg": "/static/media/in-wall.d301d65d0731c20456c4.jpg",
     "static/media/small-dog.JPG": "/static/media/small-dog.cc6898a51f72a1e89092.JPG",
     "static/media/noco-logo.png": "/static/media/noco-logo.47e3fa6e4215bfd4555e.png",
+    "static/media/entry-door.webp": "/static/media/entry-door.5a7262c7b598e61250c7.webp",
+    "static/media/instagram.svg": "/static/media/instagram.686d86871525fdbc44a3d38c25cf0805.svg",
     "index.html": "/index.html",
     "static/media/envelope-check.svg": "/static/media/envelope-check.a69fb1b0024a9c46759aa138a8b88910.svg",
-    "main.2c68c871.css.map": "/static/css/main.2c68c871.css.map",
-    "main.a3da7964.js.map": "/static/js/main.a3da7964.js.map"
+    "static/media/facebook.svg": "/static/media/facebook.53eaefd13f44ee6a0c982f54e64d2a12.svg",
+    "main.20a4b042.css.map": "/static/css/main.20a4b042.css.map",
+    "main.7fcc8084.js.map": "/static/js/main.7fcc8084.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c68c871.css",
-    "static/js/main.a3da7964.js"
+    "static/css/main.20a4b042.css",
+    "static/js/main.7fcc8084.js"
   ]
 }
