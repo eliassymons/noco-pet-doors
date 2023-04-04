@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.20a4b042.css",
-    "main.js": "/static/js/main.7fcc8084.js",
+    "main.js": "/static/js/main.a5261203.js",
     "static/media/echo.jpeg": "/static/media/echo.daf64420dce2184a69ad.jpeg",
     "static/media/guarantee.png": "/static/media/guarantee.7029bb5520481a8ec2c0.png",
     "static/media/sliding-glass.jpg": "/static/media/sliding-glass.df445f51ff71b3b360b0.jpg",
@@ -16,10 +16,10 @@
     "static/media/envelope-check.svg": "/static/media/envelope-check.a69fb1b0024a9c46759aa138a8b88910.svg",
     "static/media/facebook.svg": "/static/media/facebook.53eaefd13f44ee6a0c982f54e64d2a12.svg",
     "main.20a4b042.css.map": "/static/css/main.20a4b042.css.map",
-    "main.7fcc8084.js.map": "/static/js/main.7fcc8084.js.map"
+    "main.a5261203.js.map": "/static/js/main.a5261203.js.map"
   },
   "entrypoints": [
     "static/css/main.20a4b042.css",
-    "static/js/main.7fcc8084.js"
+    "static/js/main.a5261203.js"
   ]
 }
